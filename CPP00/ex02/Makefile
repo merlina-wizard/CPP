@@ -5,14 +5,14 @@
 #                                                     +:+ +:+         +:+      #
 #    By: mamerlin <mamerlin@student.42roma.it>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/06/19 12:04:01 by mamerlin          #+#    #+#              #
-#    Updated: 2025/06/19 12:04:02 by mamerlin         ###   ########.fr        #
+#    Created: 2025/06/19 12:34:20 by mamerlin          #+#    #+#              #
+#    Updated: 2025/06/19 12:34:21 by mamerlin         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = phonebook
+NAME = account
 
-SRCS = main.cpp Contact.cpp PhoneBook.cpp
+SRCS = tests.cpp Account.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
